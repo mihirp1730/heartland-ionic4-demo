@@ -212,6 +212,6 @@ export class HomePage {
 
   // tslint:disable-next-line:use-life-cycle-interface
   ngOnDestroy() {
-    this.hps.destroy();
+    this.hps.dispose();
   }
 }
